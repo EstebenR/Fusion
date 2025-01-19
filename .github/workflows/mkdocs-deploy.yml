@@ -50,4 +50,4 @@ jobs:
 
       - name: Deploy developer documentation
         if: env.FUSION_DEPLOY_TYPE == 'dev'
-        run: mike deploy $FUSION_VERSION -u -b gh-pages -p --debug
+        run: mike deploy $FUSION_VERSION -u -b gh-pages -p
